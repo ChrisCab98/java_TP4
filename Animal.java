@@ -1,33 +1,33 @@
-public abstract class Animal implements Entite{
+public abstract class Animal implements Entite {
 
     protected String mEspece;
     protected boolean mAimeLeJour;
     protected boolean mMute;
 
-    public Animal () {
+    public Animal() {
         mEspece = "undefined";
         mAimeLeJour = true;
-        mMute = true; 
+        mMute = true;
     }
 
-    public Animal (String pEspece,boolean pAimeLejour, boolean pMute) {
+    public Animal(String pEspece, boolean pAimeLejour, boolean pMute) {
         mEspece = pEspece;
         mAimeLeJour = pAimeLejour;
-        mMute = pMute; 
+        mMute = pMute;
     }
 
-    public String espece(){
-        String str="";
+    public String espece() {
+        String str = "";
         str += mEspece;
         System.out.println(mEspece);
         return str;
     }
 
-    public boolean aimeLeJour(){
+    public boolean aimeLeJour() {
         return mAimeLeJour;
     }
 
-    public void mute(){
+    public void mute() {
 
     }
 
